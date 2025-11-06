@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>新北市下午茶 | 精選5家</title>
+  <style>
+    :root{--bg:#fff7f3;--card:#fffaf7;--accent:#e17c5d;--muted:#6b5b4b;--maxw:1100px}
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;background:var(--bg);color:#3b2f2a;margin:0;padding:32px}
+    .wrap{max-width:var(--maxw);margin:0 auto}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    header h1{margin:0;font-size:1.6rem;color:#c95b39}
+    header p{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(80,60,50,0.08);overflow:hidden;display:flex;flex-direction:column;border:1px solid #f3d2c1}
+    .media{height:200px;overflow:hidden}
+    .media img{width:100%;height:100%;object-fit:cover;display:block}
+    .content{padding:16px;flex:1;display:flex;flex-direction:column}
+    .title{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    .title h2{font-size:1.05rem;margin:0;color:#b34e30}
+    .meta{font-size:0.9rem;color:var(--muted);margin-bottom:12px}
+    .desc{flex:1;margin-bottom:12px;line-height:1.5}
+    .tags{display:flex;gap:8px;flex-wrap:wrap}
+    .tag{background:#ffe7db;padding:6px 10px;border-radius:999px;font-size:0.85rem;color:#5a4339}
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:0.9rem}
+    .cta{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none}
+    @media(max-width:420px){body{padding:16px}.media{height:160px}}
+    .map{height:320px;border-radius:12px;overflow:hidden;background:linear-gradient(135deg,#ffe5d4,#fff0e6)}
+    .note{font-size:0.9rem;color:var(--muted);margin-top:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>新北市下午茶 — 精選5家</h1>
+        <p>適合約會/閨密/放鬆的咖啡廳與甜點店（含特色、建議）</p>
+      </div>
+    </header>
+
+    <main class="grid">
+
+      <article class="card">
+        <div class="media"><img src="https://www.buna.com.tw/upload/spot_list_pic/tw_spot_list_23a11_hem6n4bp57.jpg" alt="BUNA CAF'E 室內照"></div>
+        <div class="content">
+          <div class="title"><h2>BUNA CAF’E 布納咖啡館（中和）</h2><div class="meta">中和區 • 中價位</div></div>
+          <div class="desc">空間寬敞、座位多，適合多人聚會與慶生。提供多款咖啡、甜點與輕食，空間舒適且有包廂選項。熱門時段建議預約。</div>
+          <div class="tags">
+            <span class="tag">多人友善</span>
+            <span class="tag">包廂可預約</span>
+            <span class="tag">適合拍照</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuc-oe2nObBxtlTFLMgbK2iW94wJo5-Hrt4hPWphxbiEbFW_FQj1S5fLpiMWcl1SPCLgsDrH98nsb8oC2w2vcfEJNgOP2DmoUSx2Co0OQon41Go5YEpeK_X6f-hnLRGGEbDg7n0uvruYS9/s1600/DSC03402.JPG" alt="桔也咖啡 室內"></div>
+        <div class="content">
+          <div class="title"><h2>桔也咖啡 Le gioie cafe（新店）</h2><div class="meta">新店區 • 平價至中價位</div></div>
+          <div class="desc">木質暖色裝潢，氣氛溫馨，適合安靜聊天或獨自放鬆。提供甜點與輕食，靠近捷運，交通方便。</div>
+          <div class="tags">
+            <span class="tag">文青風</span>
+            <span class="tag">靠近捷運</span>
+            <span class="tag">甜點推薦</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="https://lh5.googleusercontent.com/p/AF1QipOriw7VQRTy9j1ZVuzu3yenDRnxxND7_1EhiARt%3Dw600-h800" alt="Dear 40 Cafe 環境照"></div>
+        <div class="content">
+          <div class="title"><h2>Dear 40 Cafe（新店）</h2><div class="meta">新店區 • 不限時</div></div>
+          <div class="desc">主打不限時下午茶與早午餐，座位多，有沙發與插座，適合久坐工作或與朋友聚會。推薦鬆餅與貝果類輕食。</div>
+          <div class="tags">
+            <span class="tag">不限時</span>
+            <span class="tag">插座友善</span>
+            <span class="tag">早午餐</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="https://upssmile.com/wp-content/uploads/2024/02/20240216-IMG_2309.jpg" alt="Butter Cake Café 蛋糕照"></div>
+        <div class="content">
+          <div class="title"><h2>Butter Cake Café（大坪林）</h2><div class="meta">新店 • 甜點控必訪</div></div>
+          <div class="desc">以精緻蛋糕與手作甜點著稱，裝潢甜美、非常適合拍照打卡。熱門款常售罄，建議提前預約或早點去選蛋糕。</div>
+          <div class="tags">
+            <span class="tag">蛋糕專門</span>
+            <span class="tag">IG打卡</span>
+            <span class="tag">需預約</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="https://upssmile.com/wp-content/uploads/2024/01/20240105-IMG_8764-1.jpg" alt="Bellyflopp Cafe 風景照"></div>
+        <div class="content">
+          <div class="title"><h2>Bellyflopp Cafe（景觀咖啡廳）</h2><div class="meta">新店 • 景觀／寵物友善</div></div>
+          <div class="desc">大片玻璃窗與戶外平台，視野好，適合約會與拍照；提供甜點、飲品與輕食，常被推薦為景觀咖啡選擇。</div>
+          <div class="tags">
+            <span class="tag">景觀位</span>
+            <span class="tag">寵物友善</span>
+            <span class="tag">拍照熱門</span>
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <section style="margin-top:22px">
+      <h3>地圖（示意）</h3>
+      <div class="map">
+        <p style="padding:18px;color:#8b6f62">此處為地圖示意。若要嵌入真實地圖，請在&lt;iframe&gt;中放入 Google Maps 的嵌入連結或使用 Leaflet。</p>
+      </div>
+      <p class="note">提示：需要我把圖片改成你提供的照片、或把地圖替換成可互動的 Google Map 嵌入嗎？</p>
+    </section>
+
+    <footer>
+      <div>內容由你要求整理 • 若需版面調整或加入更多店家，我可以繼續幫你客製化</div>
+    </footer>
+  </div>
+</body>
+</html>
